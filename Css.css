@@ -1,0 +1,502 @@
+.MainScreen{
+    display: flex;
+    justify-content: center;
+}
+.MainScreenContent{
+    /* min-width: 1200px;
+    max-width: 1400px; */
+    width: 95%;
+    /* border: 2px solid red; */
+    background-image: url(./Media/pexels-anniroenkae-3219951.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Science Gothic", sans-serif;
+}
+.NavBar{
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    position: fixed;
+    width: 93.7%;
+    z-index: 1;
+}
+.NavLeftLogo{
+    width: 100px;
+    /* height: 105px; */
+}
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+.NavButtonCommon{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.521);
+    color: white;
+    border-radius: 20px;
+    border-color: transparent;
+
+}
+.NavButtonCommon:hover{
+    cursor: pointer;
+    color: black;
+}
+.NavMiddleContent{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.NavAnchorCommon{
+   text-decoration: none;
+   color: white;
+   transition: all 1s 1s;
+}
+
+.NavAnchorCommon:hover{
+  transform: scale3d(1.2,1.2,1.2);
+  cursor: pointer;
+  color: red;
+}
+.Menue{
+    color: white;
+}
+.HamBurgerMenue{
+    display: none;
+}
+.HeroSection{
+/* height: 300px; */
+/* border: 2px solid black; */
+}
+.HeroVideo{
+    height: 100%;
+    width: 100%;
+    /* background-size:cover; */
+}
+.InformationSection1{
+    /* height: 700px; */
+    /* border: 2px solid darkblue; */
+    padding: 20px;
+}
+.Card1{
+    width: 300px;
+    /* height: 400px; */
+    /* border: 2px solid darkgoldenrod; */
+    border-radius: 20px;
+}
+.Car1{
+    width: 100%;
+    height:50%;
+    border-radius: 20px;
+
+}
+.Text1{
+    color: white;
+}
+.Heading1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+.HeadingMain{
+margin-bottom: 100px;
+}
+.IS1CardSection{
+    display: flex;
+    justify-content: space-between;
+}
+.InformationSection2{
+    /* height: 700px; */
+    /* border: 2px solid darkblue; */
+    padding: 20px;
+}
+.IS2Card1{
+    /* width: 400px; */
+    /* height: 400px; */
+    /* border: 2px solid darkgoldenrod; */
+}
+.Circle1{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 2px solid darkgreen; */
+}
+.IS2CircleImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.IS2Matter{
+color: white;
+}
+.CircleMain{
+    display: flex;
+    justify-content: center;
+}
+.IS2CardMain{
+    display: flex;
+    /* justify-content: space-between; *//
+    
+}
+.InformationSection3{
+/* height: 850px; */
+/* border: 2px solid darkslateblue; */
+}
+.LeftScreen{
+    width: 50%;
+    /* border: 2px solid darkolivegreen; */
+}
+.RightScreen{
+    width: 50%;
+    /* border: 2px solid darkolivegreen; */
+}
+.IS3MainScreen{
+    display: flex;
+}
+.IS3LeftImage{
+    width: 100%;
+    height: 100%;
+    /* height: 700px; */
+}
+.RightScreen{
+   background: linear-gradient(45deg,red,black);
+}
+.IS3Card1{
+    width: 300px;
+    /* height: 300px; */
+    /* border: 2px solid red; */
+    border-radius: 20px;
+}
+.CardsMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.ReviewCircleImage1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+.IS3RevieCirceImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.IS3CardTopMain{
+    display: flex;
+}
+.CardFont1{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    color: white;
+
+}
+.CardFont2{
+    margin-bottom: 5px;
+    margin-top: 1px;
+    color: white;
+}
+.ReviewStar{
+    color: gold;
+}
+.IS3BottomContent{
+    color: white;
+}
+.TopSideSection{
+    padding: 5px;
+}
+.Footer{
+    /* height: 500px; */
+    /* border: 2px solid darkgreen; */
+}
+.FooterMain{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.FooterColumn1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+h6{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.FooterAnchorCommon{
+    color: white;
+    text-decoration: none;
+    transition: all 1s 1s;
+}
+.FooterAnchorCommon:hover{
+    transform: scale3d(1.2,1.2,1.2);
+    cursor: pointer;
+    color: red;
+}
+.Footer2{
+    /* height: 300px; */
+    /* border: 2px solid darkgreen; */
+}
+.FooterIcon{
+    color: white;
+}
+.Footer2{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    background-color: black;
+    gap: 20px;
+    padding: 100px;
+}
+.Footer2:hover{
+    cursor: pointer;
+}
+.Icon{
+    transition: 1s 1s;
+    transform: scale3d(1.2,1.2,1.2);
+}
+.Icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.FooterIconMatter{
+    transition: 1s 1s;
+}
+.FooterIconMatter:hover{
+    color: red;
+    cursor: pointer;
+    transform: scale3d(1.2,1.2,1.2);
+}
+.FerrariMovingImage{
+    width: 300px;
+    /* height: 100px; */
+}
+.FMI{
+    padding-top: 15px;
+}
+
+html { /* Or target a specific scrollable element */
+        scrollbar-color: red black; /* thumb-color track-color */
+        scroll-behavior: smooth;
+    }
+.FixedCircle{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* border: 2px solid darkgreen; */
+    top: 50%;
+    right: 50px;
+}
+.FixedImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* Mobile Screen Responsive Start */
+@media(min-width:0px) and (max-width:576px){
+    .NavBar{
+    
+    width: 91.3%;
+    }
+    
+.NavMiddleContent{
+    display: none;
+}
+.NavRightContent{
+    display: none;
+}
+.HamBurgerMenue{
+    display: block;
+}
+.Heading1{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.IS1CardSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.HeadingMain{
+margin-bottom: 30px;
+}
+.Card1{
+    width: 100%;
+    /* height: 400px; */
+    /* border: 2px solid darkgoldenrod; */
+    border-radius: 20px;
+}
+.IS2CardMain{
+   display: grid;
+   grid-template-columns: (1,auto);
+}
+.IS2Card1{
+    width: 100%;
+    /* height: 400px; */
+    /* border: 2px solid darkgoldenrod; */
+    border-radius: 20px;
+}
+.Circle1{
+    width: 50%;
+    /* height: 100%; */
+    border-radius: 50%;
+    /* border: 2px solid darkgreen; */
+}
+.IS3MainScreen{
+    display:flex;
+    flex-direction: column;
+}
+.IS3Card1{
+    width: 100%;
+    /* height: 300px; */
+    /* border: 2px solid red; */
+    border-radius: 20px;
+}
+.LeftScreen{
+    width: 100%;
+    /* border: 2px solid darkolivegreen; */
+}
+.RightScreen{
+    width: 100%;
+    /* border: 2px solid darkolivegreen; */
+}
+.CardsMain{
+    padding: 20px;
+     display: grid;
+    grid-template-columns: repeat(1,auto);
+}
+.FooterMain{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.Footer2{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    padding: 20px;
+}
+.FerrariMovingImage{
+    width: 300px;
+    /* height: 100px; */
+}
+
+}
+/* Mobile Screen Responsive End */
+
+/* Tablet Screen Responsive Start */
+@media(min-width:576px) and (max-width:800px){
+     .NavBar{
+    
+    width: 93%;
+    }
+    
+    .NavMiddleContent{
+    display: none;
+}
+.NavRightContent{
+    display: none;
+}
+.HamBurgerMenue{
+    display: block;
+}
+.IS1CardSection{
+   display: grid;
+   grid-template-columns: repeat(2,auto);
+   gap: 20px;
+}
+.IS2CardMain{
+   display: grid;
+   grid-template-columns: repeat(2,auto);
+   gap: 20px;
+}
+.Circle1{
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 50%;
+    /* border: 2px solid darkgreen; */
+}
+.IS3MainScreen{
+    display: flex;
+    flex-direction: column;
+}
+.IS3Card1{
+    width: 100%;
+    /* height: 300px; */
+    /* border: 2px solid red; */
+    border-radius: 20px;
+}
+.LeftScreen{
+    width: 100%;
+    /* border: 2px solid darkolivegreen; */
+}
+.RightScreen{
+    width: 100%;
+    /* border: 2px solid darkolivegreen; */
+}
+.CardsMain{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 20px;
+}
+.FooterMain{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.Footer2{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+
+
+
+}
+/* Tablet Screen Responsive End */
+
+/* Laptop Screen Responsive Start */
+@media(min-width:800px) and (max-width:1025px){
+ .NavBar{
+    
+    width: 93.5%;
+    }
+ 
+    .IS1CardSection{
+   display: grid;
+   grid-template-columns: repeat(3,auto);
+   gap: 20px;
+}
+.Card1{
+    width: 100%;
+    /* height: 400px; */
+    /* border: 2px solid darkgoldenrod; */
+    border-radius: 20px;
+}
+.IS1CardSection{
+    display: flex;
+    gap: 20px;
+}
+.Circle1{
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 50%;
+    /* border: 2px solid darkgreen; */
+}
+.IS2CardMain{
+    display: flex;
+    gap: 20px;
+}
+
+}
+/* Laptop Screen Responsive End */
